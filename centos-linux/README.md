@@ -9,4 +9,7 @@ taskkill /pid <pid>
 ```
 git config --global credential.helper store
 ```
-
+**Rename multiple files from .php extension to .html:**
+```
+rename .php .html *.php
+```
