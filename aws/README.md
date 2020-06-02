@@ -38,4 +38,10 @@
 /usr/local/bin/aws ec2 authorize-security-group-ingress --group-id "$group_id" --protocol "$protocol" --port "$port" --cidr "$ip_address"/32
 ```
 
+## S3</br>
+
+**Delete all the files and folders of particular bucket:**
+```
+aws s3 rm --recursive s3://<bucket_name>/<sub_folder_name>/ --exclude ""
+```
 
