@@ -13,3 +13,7 @@ git config --global credential.helper store
 ```
 rename .php .html *.php
 ```
+**To copy SSH key to destination server:**
+```
+ssh-copy-id username@<ip_address>
+```
